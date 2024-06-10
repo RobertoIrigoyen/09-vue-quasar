@@ -19,6 +19,11 @@ const routes = [
         name: "dialogs",
         component: () => import("pages/Dialogs.vue"),
       },
+      {
+        path: "forms",
+        name: "forms",
+        component: () => import("src/pages/Forms.vue"),
+      },
     ],
   },
 
